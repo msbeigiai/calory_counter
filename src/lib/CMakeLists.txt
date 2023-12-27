@@ -1,6 +1,6 @@
 add_library(Library STATIC
     Person.cc
-    People.cpp)
+    People.cc)
 
 target_include_directories(Library PUBLIC
     "./")
